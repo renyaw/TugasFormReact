@@ -28,7 +28,7 @@ export default class App extends Component {
         jurusan: jurusan,
       };
 
-      fetch(insertAPIURL, {
+      fetch(InsertAPIURL, {
         method: "POST",
         headers: headers,
         body: JSON.stringify(Data),
